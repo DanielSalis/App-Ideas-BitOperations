@@ -1,0 +1,37 @@
+.inputs-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.circles-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.circle{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: none;
+    border: 0.5px solid #fff;
+    border-radius: 50%;
+}
+
+.circle-selected{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+}
+
+  
